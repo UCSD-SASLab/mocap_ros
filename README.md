@@ -5,6 +5,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7773546.svg)](https://doi.org/10.5281/zenodo.7773546)
 
 
+## Note
+For usage remember to check your Client IP and Server IP settings. The server (optitrack PC) is still on dynamic IP so might change over time. The Client IP is laptop / workstation specific.
 
 ## Introduction
 This package contains a ROS driver for the NatNet protocol used by the OptiTrack motion capture system. It supports NatNet versions 4.0 (Motive 2.2 and higher). The NatNet SDK provided by the optitrack can be found [here](https://optitrack.com/support/downloads/developer-tools.html#natnet-sdk). It will be downloaded under `deps/NatnetSDK` while building it for the first time. NatNet protocol is used for streaming live motion capture data (rigid bodies, skeletons etc) across the shared network. 
